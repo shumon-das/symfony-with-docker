@@ -24,7 +24,7 @@ class HomeController extends  AbstractController
     /**
      * @Route("queuetest", name="queuetest")
      */
-    public function FunctionName(): Response
+    public function TestPheanstalk(): Response
     {
         $pheanstalk = Pheanstalk::create('beanstalkd');
 
