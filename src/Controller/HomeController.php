@@ -30,7 +30,7 @@ class HomeController extends  AbstractController
 
         $data = [
             'name' => 'mono',
-            'designation' => 'junior sofwere developer',
+            'designation' => 'fulstack web developer',
             'company' => 'abc private LTD'
         ];
 
